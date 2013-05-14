@@ -11,7 +11,7 @@ Requirements
 #. Install ssh public key on server
 #. Fork this repo
 #. Customize the blog updating the author
-#. Install commenting via disqus
+#. Install commenting via disqus_
 #. Build a fabric script that manages pushing your changes locally.
 #. Expand fabric script to login to deploy server and pull and build your site.
 
