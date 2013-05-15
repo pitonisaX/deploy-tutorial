@@ -7,7 +7,8 @@ env.user = ['pitonisax']
 env.hosts = ['pycourse.com']
 
 def deploy():
-    cd('~/blog')
+    code_dir + 'home/pitonisax/blog'
+    with cd(code_dir):
     run('git pull')
     run('bin/pelican -s mysite.py')
 

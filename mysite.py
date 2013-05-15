@@ -15,7 +15,7 @@ DEFAULT_CATEGORY = 'notes'
 PATH = 'src/'
 OUTPUT_PATH = 'www/'
 STATIC_PATHS = ['images']
-DISQUS_SITENAME = "krpy"
+DISQUS_SITENAME = "pitonisax"
 
 
 SOCIAL = (('Karla\'s Site', 'http://pitonisax.wordpress.com/'),
