@@ -6,5 +6,10 @@ def hello(name="World") :
 env.user = ['pitonisax']
 env.hosts = ['pycourse.com']
 
+def deploy():
+    cd('~/blog')
+    run('git pull')
+    run('bin/pelican -s mysite.py')
+
 def check_distro():
     run('cat /etc/*release*')
